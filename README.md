@@ -12,7 +12,7 @@ In this project, we have created forms using HTML markup and Rails helper method
 - In the terminal, type `run bundle` to install the gems
 - Run command 'rails server' to connect to the server.
 - To open the application in the browser, visit http://localhost:3000. 
-- To set up and configure your database for the first time, you can use the rails `db:create` command.
+- To set up and configure your database for the first time, you can use the rails `rails db:create` command.
 - To set up the tables in the database, run the `rails db:migrate` command 
 
 ## Project implementation steps
