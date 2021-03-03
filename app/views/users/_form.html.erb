@@ -19,6 +19,13 @@
     <#%= password_field_tag 'password' %> <br><br>
     <div> <#%= submit_tag("Sign up") %> <div>
   <#% end %>
+
+  <#%= form_for user do |f| %>
+    username: <#%= f.text_field :username %><br />
+    email   : <#%= f.text_field :email %><br />
+    password: <#%= f.text_area :biography %><br />
+    <#%= f.submit %>
+  <#% end %>
 -->
 
   <%= form_with model: user do |form| %>
