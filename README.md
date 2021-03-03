@@ -11,17 +11,19 @@ In this project, we have created forms using HTML markup and Rails helper method
 - Create the new application and switch to its folder using `$cd folder name`.
 - In the terminal, type `run bundle` to install the gems
 - Run command 'rails server' to connect to the server.
-- To open the application in the browser, visit http://localhost:3000.
+- To open the application in the browser, visit http://localhost:3000. 
+- To set up and configure your database for the first time, you can use the rails `db:create` command.
+- To set up the tables in the database, run the `rails db:migrate` command 
 
 ## Project implementation steps
-- We built a new rails application called **re-former**.
-- We generated the `User` model for *username, email, and password*.
-- We used the routes method named **resources** to repace **get routes**. And we used the `:only`  method to specify two actions   `create` and `new`.
-- In the view folder, we created *new* and *edit* files in which the HTML markup and `form_with` helper method used to generate the signup form.
-- In the controller, we have defined four actions: *new, create, edit, and update*.
+- We created a new Rails application called **re-former**.
+- We generated the 'User' model for *username, email, and password*.
+- We used the routes method called **resources** to replace **get routes**. And we used':only'  method to specify two actions   'create' and 'new'.
+- In the view folder, we created *new* and *edit* files where the HTML markup and helper method 'form_with' helper are used to generate the login form.
+- In the controller, we defined four actions: *new, create, edit, and update*.
 - We used a **Strong Parameters** to filter params  
-- We used **partials** to avoid code duplication by copying common code to both edits and create files and past it into a single `_form.html.erb` file.
-- We used validation for checking input presence and password length. 
+- We used **partials** to avoid code duplication by copying common code from the edit and create files and pasting it into a single  file '_form.html.erb'.
+- We used validation to check the *presence* of input and password *length*. 
 
 
 
