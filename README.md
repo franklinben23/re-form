@@ -10,7 +10,6 @@ In this project, we have created forms using HTML markup and Rails helper method
 - Clone the repository from GitHub, using the `git clone` command.
 - Create the new application and switch to its folder using `$cd folder name`.
 - In the terminal, type `run bundle` to install the gems
-- run `rails db:create` then `rails db: migrate` to actualize database.
 - Run command 'rails server' to connect to the server.
 - To open the application in the browser, visit http://localhost:3000.
 - To set up and configure your database for the first time, you can use the rails `rails db:create` command.
